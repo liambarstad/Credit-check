@@ -1,0 +1,87 @@
+Numerics and Arithmetic:
+What is the difference between integers and floats?
+
+A. integers and floats are saved differently, with more memory being allocated to
+floats, hence why the distinction needs to be made. Integers are counting numbers,
+whereas floats are numbers with values after the decimal point (even if it's zero).
+
+What is the ruby command to find 2 to the 2nd power?
+
+A. puts #{2**2}
+
+Booleans
+What do each of the following symbols mean?
+==  :  is equal to
+>=  :  is greater than or equal to
+<=  :  is less than or equal to
+!=  :  is not equal to
+&&  :  and
+||  :  or
+
+What are two Ruby methods that return booleans?
+
+A. ".empty?" for strings and ".include(2)" for lists (using 2 here as an example).
+
+Conditionals
+What is flow control?
+
+A. the computer making decisions based on pre-existing conditions defined through
+loops and conditional statements
+
+What will the following code return?
+apple_count = 4
+if apple_count > 5
+puts "Lots of apples!"
+else
+puts 'Not many apples...'
+end
+
+A. Not many apples...
+
+What is an infinite loop, and how can you get out of one?
+
+A. the boolean statement that allows the loop to reiterate will never be made false (or
+the value the loop needs to stop) through the program running alone. Terminate the program
+immediately if an infinite loop occurs by using Ctrl+C
+
+Nil
+What is nil?
+
+A. nil is an empty set, a placeholder for something that has yet to be formally initialized
+
+Symbols
+How can symbols be beneficial in Ruby?
+
+A. they set aside memory for a specific value that can be called later by calling
+the symbol. This conserves memory, whereas using a regular value instead of a symbol
+would use memory every time a new copy is used.
+
+Does naming symbols use the same rules for naming variables?
+
+A. yes.
+
+Arrays
+What method can you call to find out how many elements are in an array?
+
+A. ".length"
+
+What is the index of pizza in this array: ["pizza", "ice cream", "cauliflower"]?
+
+A. 0
+
+What do 'push' and 'pop' do?
+
+A. "push" adds an element to the end of an array (e.g. array.push("hey")), "pop"
+removes the last element of an array and outputs it (e.g. array.pop()).
+
+
+Hashes
+Describe some differences between arrays and hashes.
+
+A. arrays use numbers to index values, whereas hashes use keys. Keys can be of any class.
+
+What is a case when you might prefer an array? What is a case when you might prefer a hash?
+
+A. When the number of elements in a data set need to be added to or detracted from en masse,
+an array makes it easier to sort and maintain. When keeping track of properties, or variables,
+associated with a greater object, hashes are easier to use in code and otherwise.

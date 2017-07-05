@@ -1,0 +1,32 @@
+1. Did you run into any issues?
+
+A. I'm having trouble installing an equivalent to XCode on Linux Mint, the OS I'm running until I receive my Macbook. Besdies that, everything seems to be wokring fine.
+
+2. How do you open Atom from your Terminal?
+
+A. type "atom" followed by any file you want to open, or by itself to simply open the app.
+
+3. What is the file extension for a Ruby file?
+
+A. .rb
+
+4. What is the Atom shortcut for hiding/ showing your file tree view?
+
+A. Ctrl+Shift+\
+
+5. What is the Atom shortcut for quickly finding a file (fuzzy finder)?
+
+A. Ctrl+T, Ctrl+P
+
+6. What does pwd stand for, and how is this command helpful?
+
+A. pwd stands for print working directory, and it tells you which folder you are currently operating in.
+
+7. What does ls do? What about cd and mkdir?
+
+A. ls lists the contents of the working directory, cd by itself changes the working directory back to root, but can change to any directory typed after it, and mkdir makes a new
+directory that can be named or remain untitled.
+
+8. What does hostname tell you, and what shows up in YOUR terminal when you type hostname?
+
+A. hostname tells you which user is currently operating. In my terminal it shows up as derek-Q553LN.

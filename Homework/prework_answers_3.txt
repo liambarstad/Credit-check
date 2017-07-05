@@ -1,0 +1,57 @@
+What is a Pomodoro break?
+
+A. A break in between 25 minute increments of dedicated work, or "Pomodoros" used
+to take care of anything peripheral.
+
+Variables:
+How do you create a variable?
+
+A. declare the variable name, followed by the equal sign and value
+- Samp_var = 20
+
+What did you learn about the rules for naming variables?
+
+A. variable names cannot include a hyphen or begin with a number.
+
+How do you change the value of a variable?
+
+A. Set it equal to a value, variable, or expression.
+
+Datatypes:
+How can you find out the class of a variable?
+
+A. type ".class" after it to output the class
+- 5.class => Fixnum
+
+What are two string methods?
+
+A. .freeze? and .private_methods (which gives a list of more methods)
+
+How can you change an integer to a string?
+
+A. use ".to_s" method
+- 4.to_s => "4"
+
+Strings:
+Why might you use double quotes instead of single quotes in Ruby?
+
+A. string interpolation doesn't work if a string is in single quotes.
+
+What is this used for in  Ruby: #{}?
+
+A. to input a variable, value, array, or result of an expression into a string.
+
+How would you remove all the vowels from a string?
+
+A. type ".delete(aeiou)" as a method after the string
+
+Input & Output:
+What do 'print' and 'puts' do in Ruby?
+
+A. print places the argument after it directly into output, while puts first returns
+a line, then places it into output.
+
+What does 'gets' do in Ruby?
+
+A. gets immediately prompts for user input to replace a the uninitialized value implied
+by its use.

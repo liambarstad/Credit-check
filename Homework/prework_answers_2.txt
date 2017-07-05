@@ -1,0 +1,27 @@
+IRB questions:
+1. What command is entered into the command line to enter an 'irb' session?
+
+A. "irb"
+
+2. What is the expression used to express a number squared?
+
+A. if x is a number or variable equivalent, x**2 is x squared
+
+Strings questions:
+1. What is the ruby command used to output something to the terminal?
+
+A. "puts" outputs to separate line, "print" directly outputs without a preceding
+line break or space
+
+2. How is a ruby file run from the command line?
+
+A. ruby file_name.rb
+
+3. If a # is at the beginning of a ruby line in Atom, what does that indicate?
+
+A. this indicates a comment, and anything in that line is not read when the program
+is run.
+
+4. What will "turing".length return?
+
+A. 6
